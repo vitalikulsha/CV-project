@@ -1,0 +1,13 @@
+:root{
+	--width-wrapper: 1200px;
+	
+	--font-family-text: Arial, 'Geneva', 'Helvetica', sans-serif;
+	--font-family-content: 'Calibri', 'Verdana', sans-serif;
+	--font-family-heading: 'Roboto', 'Verdana', sans-serif;
+	--font-family-logo: 'Qanelas Soft', 'Verdana', sans-serif;
+
+	--color-primary: #374859;
+	--color-addition: #e75a2f;
+	--color-text-header: #ffffff;
+	--color-text-active: #E6E6FA;
+}

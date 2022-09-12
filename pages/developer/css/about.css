@@ -1,0 +1,23 @@
+.about{
+    background: linear-gradient(to bottom, var(--color-primary), #463940);
+}
+
+.about-wrapper{
+    padding: 50px 0;
+}
+
+.about__photo{
+    width: 30%;
+    height: 200px;
+    background-image: url("../assets/images/programm-1.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px; 
+}
+
+.about__content{
+    border: 2px solid var(--color-primary);
+    border-radius: 10px; 
+    width: 60%;
+    height: 200px;
+}
