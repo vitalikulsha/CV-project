@@ -1,0 +1,9 @@
+.tag{
+    display: block;
+    border-radius: 15px;
+    background-color: var(--color-addition2);
+    opacity: 0.8;
+    font-size: 20px;
+    padding: 6px;
+    font-size: 1.8rem;
+}

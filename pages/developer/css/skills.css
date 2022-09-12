@@ -1,0 +1,9 @@
+.skills__title{
+    color: black;
+}
+
+.tag-container{
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+}
