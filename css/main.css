@@ -1,0 +1,98 @@
+.about {
+    background-color: var(--color-silver);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.my-banner {
+    width: 100%;
+    height: 640px;
+    border-radius: 50px;
+    background-image: url("../assets/images/MyPhoto.jpg");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 -120px 50px 0 black inset;
+}
+
+.my-banner-description {
+    position: relative;
+    top: -80px;
+    margin: 0;
+    color: white;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    text-align: center;
+}
+
+h3>a {
+    text-decoration: underline;
+    color: var(--color-violet);
+}
+
+.experience {
+    background-image: url("../assets/images/banner-experience.png");
+    background-size: cover;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    font-size: 2.5rem;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    color: white;
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.card_link {
+    display: block;
+    font-weight: bold;
+    color: var(--color-violet);
+    margin: 0;
+    padding-top: 20px;
+    font-size: 3rem;
+}
+
+.card_img {
+    width: 25%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.img-stk {
+    background-image: url("../assets/images/SKT.jpg");
+}
+
+.img-bdm {
+    background-image: url("../assets/images/logo-BDM.jpg");
+}
+
+.card_content {
+    width: 70%;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.card_work-period {
+    padding-top: 10px;
+    color: var(--color-addition2);
+}
+
+.card_work {
+    font-weight: bold;
+    color: black;
+    padding-top: 10px;
+}

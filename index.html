@@ -5,6 +5,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="./assets/icons/logo_2-removebg.png">
 	<link rel="stylesheet" href="style.css" />
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,28 +15,84 @@
 </head>
 
 <body>
-	<header class="header">
+	<header id="header" class="header">
 		<div class="wrapper">
 			<div class="logo-container">
-				<a href="#" class="logo">
+				<a href="#header" class="logo">
 					<img class="logo-img" src="./assets/icons/logo_2-removebg.png" alt="logo">
 				</a>
 				<h1>Vitali Kulsha</h1>
 			</div>
 			<nav class="header__navigation">
 				<ul class="navigation">
-					<li class="navigation__link"><a href="#">Главная</a></li>
-					<li class="navigation__link"><a href="#">Опыт работы</a></li>
-					<li class="navigation__link"><a href="#">Достижения</a></li>
-					<li class="navigation__link"><a href="#">Контакты</a></li>
+					<li class="navigation__link navigation__link_active"><a href="#about">Главная</a></li>
+					<li class="navigation__link"><a href="#experience">Опыт работы</a></li>
+					<li class="navigation__link"><a href="#achievements">Достижения</a></li>
+					<li class="navigation__link"><a href="#portfolio">Портфолио</a></li>
+					<li class="navigation__link"><a href="#contacts">Контакты</a></li>
 				</ul>
 			</nav>
 		</div>
 	</header>
 	<main class="main">
-		<section class="about">
+		<section id="about" class="about">
 			<div class="wrapper">
-
+				<div class="my-banner"></div>
+				<p class="my-banner-description">
+					Меня зовут Кульша Виталий Геннадьевич, я из Жодино (Республика Беларусь), и эта сраничка о моей
+					профессиональной деятельности
+				</p>
+				<h3>
+					Закончил в 2005 году
+					<a href="https://zgpk.bntu.by/" target="_blank">Жодинский государственный политехнический
+						колледж</a>
+					по специальности "Техническая эксплуатация станков с ПУ и РТК". В 2011 году получил диплом о высшем
+					образовании в
+					<a href="https://bntu.by/" target="_blank">Белорусском национальном техническом университете</a>
+					со специализацией "Технология инструментального производства".
+					С 2012 по 2013 гг отслужил в ВС РБ в звании сержанта.
+					Работать начал с 2005 года по распределению на
+					<a href="https://kztsh.by/" target="_blank">Кузнечный завод тяжелых штамповок</a>
+					на должности техника-конструктора.
+					В свободное время изучаю программирование на Java, JavaScript, HTML и CSS.
+				</h3>
+			</div>
+		</section>
+		<section id="experience" class="experience">
+			<div class="wrapper">
+				<h2 class="experience-title"> Опыт работы </h2>
+				<div class="card-container">
+					<div class="card">
+						<div class="card_img img-stk"></div>
+						<div class="card_content">
+							<h4 class="card_title"> Инженер-конструктор </h4>
+							<a href="https://techcata.com/" target="_blank" class="card_link">
+								ООО Современная технологическая компания
+							</a>
+							<p class="card_work-period">
+								Сентябрь 2023 г. по настоящее время
+							</p>
+							<ul class="card_work">
+								<li> Разработка конструкторской документации в Solid Works</li>
+							</ul>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card_img img-bdm"></div>
+						<div class="card_content">
+							<h4 class="card_title"> Инженер-конструктор </h4>
+							<a href="http://baz.by/" target="_blank" class="card_link">
+								ООО БАЗДорМаш
+							</a>
+							<p class="card_work-period">
+								Август 2023 г. по настоящее время
+							</p>
+							<ul class="card_work">
+								<li> Технологическое сопровождение производства</li>
+							</ul>
+						</div>
+					</div>
+				</div>
 			</div>
 		</section>
 	</main>
