@@ -50,7 +50,6 @@ h3>a {
     align-content: center;
     color: white;
     width: 100%;
-    height: 250px;
     border-radius: 10px;
 }
 
@@ -65,18 +64,23 @@ h3>a {
 
 .card_img {
     width: 25%;
-    height: 100%;
+    min-height: 100%;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     border-radius: 20px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
 }
 
-.img-stk {
-    background-image: url("../assets/images/SKT.jpg");
+.card_img>a {
+    display: flex;
+    align-items: center;
 }
 
-.img-bdm {
-    background-image: url("../assets/images/logo-BDM.jpg");
+.card_img>a>img{
+    border-radius: 20px;
 }
 
 .card_content {
@@ -95,4 +99,10 @@ h3>a {
     font-weight: bold;
     color: black;
     padding-top: 10px;
+}
+
+.card_work>li::before {
+    content: "\2B24";
+    font-size: 1.5rem;
+    margin-right: 10px;
 }
