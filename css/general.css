@@ -1,5 +1,6 @@
 html {
 	font-size: 10px;
+	scroll-behavior: smooth;
 }
 
 body {
@@ -68,4 +69,10 @@ li {
 
 ul {
 	list-style: none;
+}
+
+section {
+	background-size: cover;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
