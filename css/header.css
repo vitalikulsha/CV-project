@@ -1,9 +1,14 @@
 .header {
 	background-color: var(--color-primary);
+	position: fixed;
+	height: 130px;
+	width: 100%;
+	z-index: 1000;
 }
 
 .header>.wrapper {
 	padding-top: 20px;
+	justify-content: space-around;
 }
 
 .logo-container {

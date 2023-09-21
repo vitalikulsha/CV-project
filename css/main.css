@@ -1,7 +1,6 @@
 .about {
     background-image: url("../assets/images/bg-about.jpg");
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 100px;
 }
 
 .my-banner {
@@ -142,6 +141,8 @@ h3>a {
     font-weight: 600;
     color: var(--color-text-active);
     text-shadow: 1px 1px 1px #000;
+    display: flex;
+    align-items: center;
 }
 
 .achievements-list>li>a {
@@ -207,17 +208,10 @@ h3>a {
 }
 
 .go-top {
-    text-decoration: none;
     display: inline-block;
-    border-radius: 10px;
-    font-size: 18px;
-    font-weight: bold;
-    text-align: center;
     position: fixed;
-    bottom: 65px;
-    right: 80px;
- }
-
- .go-top {
+    bottom: 20px;
+    right: 20px;
     width: 64px;
+    z-index: 1100;
  }
