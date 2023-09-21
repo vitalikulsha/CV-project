@@ -189,17 +189,35 @@ h3>a {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 50px;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
 .portfolio-card_img>img {
-    display: block;
-    min-height: 100px;
-    height: 500px;
+    max-height: 500px;
+    max-width: 45%;
     border-radius: 20px;
+    overflow: hidden;    
 }
 
 .portfolio-card_text{
+    width: 80%;
     text-align: center;
     margin: 10px;
 }
+
+.go-top {
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    position: fixed;
+    bottom: 65px;
+    right: 80px;
+ }
+
+ .go-top {
+    width: 64px;
+ }
