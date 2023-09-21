@@ -1,5 +1,5 @@
 .about {
-    background-color: var(--color-silver);
+    background-image: url("../assets/images/bg-about.jpg");
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -30,7 +30,7 @@ h3>a {
 }
 
 .experience {
-    background-image: url("../assets/images/bg-experience.jpg");
+    background-image: url("../assets/images/bg-experience-2.jpg");
 }
 
 .card-container {
@@ -105,11 +105,11 @@ h3>a {
 }
 
 .achievements {
-    background-image: url("../assets/images/bg-achievements.jpg");
+    background-image: url("../assets/images/bg-achievements-1.jpg");
 }
 
 .marker-constructor {
-    background: url("../assets/icons/icon-marker-dividers .png") no-repeat left center;
+    background: url("../assets/icons/icon-marker-dividers.png") no-repeat left center;
 }
 
 .marker-university {
@@ -130,7 +130,8 @@ h3>a {
 
 .achievements-list>li {
     background-size: contain;
-    padding-left: 70px;
+    height: 100px;
+    padding-left: 120px;
     margin: 20px 0;
     font-size: 2.5rem;
     font-weight: 600;
@@ -160,5 +161,5 @@ h3>a {
 }
 
 .achievements-img:hover {
-    transform: scale(2);
+    transform: scale(1.8);
 }
