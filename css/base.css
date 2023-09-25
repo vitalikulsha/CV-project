@@ -6,6 +6,7 @@
 	max-width: var(--width-wrapper);
 	margin: auto;
 	padding-top: 80px;
+	overflow: hidden;
 }
 
 .tag-container {
@@ -13,7 +14,7 @@
 	width: 100%;
 	display: flex;
 	justify-content: center;
-    flex-wrap: wrap;
+	flex-wrap: wrap;
 }
 
 .tag {
@@ -28,4 +29,26 @@
 	font-size: 1.5rem;
 	font-weight: bold;
 	color: white;
+}
+
+.experience-btn {
+	width: 200px;
+	height: 50px;
+	color: white;
+	font-size: 2rem;
+	font-weight: bold;
+	border-radius: 25px;
+	border: none;
+	background-color: #666;
+	margin: auto;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+.experience-btn:hover {
+	background: #a0a0a0;
+}
+
+.hide {
+	display: none;
 }

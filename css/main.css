@@ -176,6 +176,7 @@ h3>a {
 
 .portfolio-card {
     width: 100%;
+    height: 600px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -183,6 +184,8 @@ h3>a {
     background: rgba(255, 255, 255, 0.5);
     border-radius: 50px;
     padding-bottom: 20px;
+    transition: all 1s;
+    position: relative;
 }
 
 .portfolio-card_img {
@@ -192,6 +195,7 @@ h3>a {
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
+    margin: auto;
 }
 
 .portfolio-card_img>img {
@@ -207,6 +211,25 @@ h3>a {
     margin: 10px;
 }
 
+.arrow {
+    position: absolute;
+    width: 64px;
+    top: 250px;
+    cursor: pointer;
+}
+
+.arrow:hover {
+    opacity: 0.5;
+}
+
+.next {
+    right: 10px;
+}
+
+.prev {
+    left: 10px;
+}
+
 .go-top {
     display: inline-block;
     position: fixed;
@@ -214,4 +237,8 @@ h3>a {
     right: 20px;
     width: 64px;
     z-index: 1100;
+}
+
+.go-top:hover {
+    opacity: 0.5;
 }

@@ -12,6 +12,7 @@
     margin: 10px 10px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .contact-title {
@@ -71,6 +72,8 @@
 .footer-box {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
     width: 100%;
     border-top: solid;
     padding: 10px;
@@ -104,8 +107,4 @@
 
 .title-footer-box {
     font-size: 1.5rem;
-    text-align: center;
-    width: 100%;
-    text-align: center;
-    margin-left: -120px;
 }
