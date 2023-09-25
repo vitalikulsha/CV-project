@@ -1,6 +1,6 @@
-:root{
+:root {
 	--width-wrapper: 1200px;
-	
+
 	--font-family-text: Arial, 'Geneva', 'Helvetica', sans-serif;
 	--font-family-content: 'Calibri', 'Verdana', sans-serif;
 	--font-family-heading: 'Roboto', 'Verdana', sans-serif;
@@ -12,5 +12,11 @@
 	--color-text-header: #ffffff;
 	--color-text-active: #E6E6FA;
 	--color-silver: grey;
-	--color-violet:  rgb(57, 4, 107);
+	--color-violet: rgb(57, 4, 107);
+}
+
+@media(max-width: 1000px) {
+	:root {
+		--width-wrapper: 900px;
+	}
 }

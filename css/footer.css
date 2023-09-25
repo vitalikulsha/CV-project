@@ -11,8 +11,9 @@
     width: 100%;
     margin: 10px 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
+    gap: 10px;
 }
 
 .contact-title {
@@ -50,7 +51,7 @@
 }
 
 .social-link>img {
-    max-width: 40px;
+    max-width: 30px;
     margin-right: 10px;
     border-radius: 8px;
 }
@@ -97,8 +98,8 @@
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 1.5rem;
-    line-height: 2rem;
+    font-size: 15px;
+    line-height: 20px;
     letter-spacing: 5px;
     color: #abcdef;
     text-align: left;

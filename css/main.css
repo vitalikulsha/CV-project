@@ -31,6 +31,8 @@ h3>a {
 .description-about {
     margin-top: -30px;
     text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .experience {
@@ -134,10 +136,10 @@ h3>a {
 
 .achievements-list>li {
     background-size: contain;
-    height: 100px;
-    padding-left: 120px;
+    height: 80px;
+    padding-left: 100px;
     margin: 20px 0;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 600;
     color: var(--color-text-active);
     text-shadow: 1px 1px 1px #000;
@@ -152,7 +154,7 @@ h3>a {
 
 .img-position {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     gap: 10px;
@@ -241,4 +243,45 @@ h3>a {
 
 .go-top:hover {
     opacity: 0.5;
+}
+
+@media(max-width: 700px) {
+    .portfolio-card {
+        height: 450px
+    }
+
+    .portfolio-card_img>img {
+        max-height: 380px;
+    }
+
+    .arrow {
+        top: 200px;
+        width: 40px;
+    }
+
+    .achievements-list>li {
+        height: 60px;
+        padding-left: 80px;
+        margin: 20px 0;
+        font-weight: 400;
+    }
+
+    h1 {
+        display: none;
+    }
+}
+
+@media(max-width: 550px) {
+    .portfolio-card {
+        height: 400px
+    }
+
+    .portfolio-card_img>img {
+        max-height: 300px;
+    }
+
+    .arrow {
+        top: 200px;
+        width: 40px;
+    }
 }

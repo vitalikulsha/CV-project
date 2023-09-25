@@ -32,15 +32,16 @@
 
 .navigation {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
 	flex-wrap: wrap;
+	gap: 5px;
 }
 
 .navigation__link {
 	list-style: none;
 	cursor: pointer;
-	font-size: 2.5rem;
+	font-size: 2.2rem;
 	font-family: var(--font-family-heading);
 	color: var(--color-text-header);
 	padding-bottom: 3px;

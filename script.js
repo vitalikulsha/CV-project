@@ -177,7 +177,6 @@ let index = 0;
 function switchCard() {
     card.innerHTML = '';
     cardText.innerHTML = portfolioCards[index].text;
-    console.log(portfolioCards[index].imgs.length);
     for (let i = 0; i < portfolioCards[index].imgs.length; i++) {
         let cardImg = document.createElement("img");
         cardImg.src = portfolioCards[index].imgs[i].img;
