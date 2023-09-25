@@ -182,7 +182,10 @@ function switchCard() {
         let cardImg = document.createElement("img");
         cardImg.src = portfolioCards[index].imgs[i].img;
         cardImg.alt = portfolioCards[index].imgs[i].alt;
-        card.append(cardImg);
+        cardImg.onload = () => {
+            card.append(cardImg);
+        }
+        // card.append(cardImg);
     }
 }
 switchCard();
