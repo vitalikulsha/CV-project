@@ -1,6 +1,7 @@
 .about {
     background-image: url("../assets/images/bg-about.jpg");
     padding-top: 100px;
+    padding-bottom: 0px;
 }
 
 .my-banner {

@@ -14,9 +14,3 @@
 	--color-silver: grey;
 	--color-violet: rgb(57, 4, 107);
 }
-
-@media(max-width: 1000px) {
-	:root {
-		--width-wrapper: 900px;
-	}
-}
