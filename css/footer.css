@@ -1,0 +1,111 @@
+.footer {
+    background-color: var(--color-primary);
+    color: white;
+}
+
+.wrapper {
+    padding-top: 20px;
+}
+
+.contact-container {
+    width: 100%;
+    margin: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-title {
+    font-size: 2.2rem;
+    color: white;
+    border-bottom: solid;
+    margin-bottom: 20px;
+}
+
+.contact-list {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.social-link,
+.contact-link {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    margin: 10px;
+}
+
+.button-CV:hover,
+.social-link:hover,
+.contact-link:hover {
+    transform: scale(1.1);
+}
+
+.contact-link>img {
+    max-width: 20px;
+    margin-right: 10px;
+    border-radius: 4px;
+}
+
+.social-link>img {
+    max-width: 40px;
+    margin-right: 10px;
+    border-radius: 8px;
+}
+
+.button-CV {
+    width: 180px;
+    height: 40px;
+    background-color: green;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 2rem;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.footer-box {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-top: solid;
+    padding: 10px;
+}
+
+.logo-container-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    max-width: 120px;
+}
+
+.logo-img-footer {
+    max-width: 40px;
+    max-height: 40px;
+    margin-right: 10px;
+}
+
+.logo-title-footer {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    letter-spacing: 5px;
+    color: #abcdef;
+    text-align: left;
+    margin: 0;
+}
+
+.title-footer-box {
+    font-size: 1.5rem;
+    text-align: center;
+    width: 100%;
+    text-align: center;
+    margin-left: -120px;
+}

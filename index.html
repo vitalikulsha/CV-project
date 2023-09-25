@@ -2,6 +2,15 @@
 <html lang="en">
 
 <head>
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-219SY8948R"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+		gtag('config', 'G-219SY8948R');
+	</script>
+
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -505,11 +514,12 @@
 				</div>
 			</div>
 		</section>
-		<section id="contacts" class="contacts">
-			<div class="wrapper">
-				<h2 class="section-title">Контакты</h2>
-				<h3 class="contact-title">Контактная информация:</h3>
-				<div class="contact-container">
+	</main>
+	<footer class="footer" id="contacts">
+		<div class="wrapper">
+			<div class="contact-container">
+				<div class="contact-list">
+					<h3 class="contact-title">Контактная информация:</h3>
 					<a href="tel:+375447678601" class="contact-link">
 						<img src="./assets/icons/icon-phone.png" alt="phone">
 						+375 (44) 767 86 01
@@ -526,32 +536,46 @@
 						<img src="./assets/icons/icon-skype.png" alt="skype">
 						vitali_kulsha
 					</a>
+					<a href="https://maps.app.goo.gl/RnWSGUSsWkku9TWh6" target="_blank" class="contact-link">
+						<img src="./assets/icons/icon-location.png" alt="location">
+						г. Жодино, РБ
+					</a>
 				</div>
-				<h3 class="contact-title">Ссылки:</h3>
-				<div class="contact-container size">
-					<a class="social-link"
-						href="https://rabota.by/applicant/resumes/view?resume=926c5496ff09d1f4410039ed1f59306a503932"
+				<div class="contact-list">
+					<h3 class="contact-title">Ссылки:</h3>
+					<a class="social-link" href="https://rabota.by/resume/926c5496ff09d1f4410039ed1f59306a503932"
 						target="_blank">
 						<img src="./assets/icons/icon-hh.png" alt="HeadHunter" title="HeadHunter">
+						Кульша Виталий Геннадьевич
 					</a>
 					<a class="social-link" href="https://vk.com/vitali_kulsha" target="_blank">
-						<img src="./assets/icons/icon-vk.ico" alt="vk" title="Вконтакте">
+						<img src="./assets/icons/icon-vk.png" alt="vk" title="Вконтакте">
+						vitali_kulsha
 					</a>
 					<a class="social-link" href="https://www.facebook.com/vitalikulsha/" target="_blank">
 						<img src="./assets/icons/icon-facebook.png" alt="facebook" title="Facebook">
+						vitalikulsha
 					</a>
 					<a class="social-link" href="https://www.instagram.com/kulsha_vitali/" target="_blank">
 						<img src="./assets/icons/icon-instagram.png" alt="instagram" title="Instagram">
+						vitali_kulsha
 					</a>
 					<a class="social-link" href="https://www.linkedin.com/in/vitali-kulsha/" target="_blank">
 						<img src="./assets/icons/icon-linkedIn.png" alt="linkedin" title="LinkedIn">
+						vitali-kulsha
+					</a>
+					<a class="social-link" href="https://www.youtube.com/channel/UCNA0k_naJrSexXV8MI6NNEw"
+						target="_blank">
+						<img src="./assets/icons/icon-youtube.png" alt="youtube" title="YouTube">
+						Виталий Кульша
 					</a>
 					<a class="social-link" href="https://github.com/vitalikulsha" target="_blank">
 						<img src="./assets/icons/icon-github.ico" alt="github" title="GitHub">
+						vitalikulsha
 					</a>
 				</div>
-				<h3 class="contact-title">Резюме:</h3>
-				<div class="contact-container size">
+				<div class="contact-list">
+					<h3 class="contact-title">Резюме:</h3>
 					<a href="./assets/pdf/vitali-kulsha-cv.pdf" download>
 						<button class="button-CV">Скачать</button>
 					</a>
@@ -559,22 +583,21 @@
 						<button class="button-CV">Открыть</button>
 					</a>
 				</div>
-				<h3 class="contact-title">Местоположение:
-					<span class="location-text">
-						Республика Беларусь, Минская область, г. Жодино &#127463;&#127486;
-					</span>
-				</h3>
-				<iframe class="location"
-					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d37429.915251573206!2d28.281679112280298!3d54.10264974311554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!
-            4f13.1!3m3!1m2!1s0x46da50508b43ce7d%3A0x29f1e4cee7380087!2z0JbQvtC00LjQvdC-!5e0!3m2!1sru!2sby!4v1633369645722!5m2!1sru!2sby"
-					width="90%" height="450" style="border: 0;" allowfullscreen="" loading="lazy"></iframe>
 			</div>
-		</section>
-		<a href="#about" class="go-top">
-			<img src="./assets/icons/icon-up-arrow.png" alt="up arrow">
-		</a>
-	</main>
-	<footer class="footer"></footer>
+			<div class="footer-box">
+				<div class="logo-container-footer">
+					<a href="#about">
+						<img class="logo-img-footer" src="./assets/icons/logo_2-removebg.png" alt="logo">
+					</a>
+					<p class="logo-title-footer">VITALI KULSHA</p>
+				</div>
+				<p class="title-footer-box">Copyright @2023 | Designed by Vitali Kulsha</p>
+			</div>
+		</div>
+	</footer>
+	<a href="#about" class="go-top">
+		<img src="./assets/icons/icon-up-arrow.png" alt="up arrow">
+	</a>
 </body>
 
 </html>
