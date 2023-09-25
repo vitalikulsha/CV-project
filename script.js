@@ -165,7 +165,7 @@ const portfolioCards = [
                 alt: "rolgang",
             }
         ]
-    },
+    }
 ]
 
 const next = document.querySelector(".next");
@@ -184,7 +184,6 @@ function switchCard() {
         cardImg.onload = () => {
             card.append(cardImg);
         }
-        // card.append(cardImg);
     }
 }
 switchCard();
