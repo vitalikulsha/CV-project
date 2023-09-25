@@ -20,7 +20,7 @@ experienceBtn.addEventListener("click", function () {
         }
     };
     if (index == (experienceList.length - 1)) {
-        experienceBtn.innerHTML = "Спрятать";
+        experienceBtn.innerHTML = "Скрыть";
         experienceBtn.classList.add("hide-btn");
     }
 });
