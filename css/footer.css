@@ -3,7 +3,7 @@
     color: white;
 }
 
-.wrapper {
+.footer>.wrapper {
     padding-top: 20px;
 }
 
@@ -59,7 +59,7 @@
 .button-CV {
     width: 180px;
     height: 40px;
-    background-color: green;
+    background-color: var(--color-addition);
     border: none;
     border-radius: 20px;
     color: white;
