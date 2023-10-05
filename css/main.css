@@ -173,6 +173,17 @@ h3>a {
     transform: scale(1.5);
 }
 
+.video {
+    width: 90%;
+    margin: 30px auto;
+}
+
+.video>iframe {
+    width: 100%;
+    max-height: 500px;
+    border-radius: 20px;
+}
+
 .portfolio {
     background-image: url("../assets/images/bg-portfolio.jpg");
 }
