@@ -281,6 +281,15 @@ h3>a {
     h1 {
         display: none;
     }
+
+    .card_img {
+        display: none;
+    }
+
+    .card_content {
+        width: 100%;
+        margin: auto;
+    }
 }
 
 @media(max-width: 550px) {
