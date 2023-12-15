@@ -167,7 +167,7 @@ const portfolioCards = [
         ]
     },
     {
-        text: "Структура таблиц ERP на базе EXCEL",
+        text: "Структура таблиц системы ERP на базе EXCEL",
         imgs: [
             {
                 img: "./assets/images/projects/erp-excel.jpg",
