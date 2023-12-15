@@ -165,6 +165,15 @@ const portfolioCards = [
                 alt: "rolgang",
             }
         ]
+    },
+    {
+        text: "Структура таблиц ERP на базе EXCEL",
+        imgs: [
+            {
+                img: "./assets/images/projects/erp-excel.jpg",
+                alt: "lunet",
+            }
+        ]
     }
 ]
 
