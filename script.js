@@ -171,7 +171,11 @@ const portfolioCards = [
         imgs: [
             {
                 img: "./assets/images/projects/erp-excel.jpg",
-                alt: "lunet",
+                alt: "erp excel",
+            },
+            {
+                img: "./assets/images/projects/erp-excel-1.jpg",
+                alt: "erp excel",
             }
         ]
     }
