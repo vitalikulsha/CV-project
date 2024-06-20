@@ -178,6 +178,19 @@ const portfolioCards = [
                 alt: "erp excel",
             }
         ]
+    },
+    {
+        text: "Проект стола для мойки матриц экструдера, выполнен в Inventor",
+        imgs: [
+            {
+                img: "./assets/images/projects/Inventor-stol-dlya-moyki-matriz-2D.jpg",
+                alt: "stol 2D",
+            },
+            {
+                img: "./assets/images/projects/Inventor-stol-dlya-moyki-matriz-3D.jpg",
+                alt: "stol 3D",
+            }
+        ]
     }
 ]
 
